@@ -24,6 +24,7 @@ RUN set ex \
         pkg-config  \
 		" \
     && apt-get update \
+    && apt-get -y install git \
     && apt-get install -y --no-install-recommends $buildDeps \
     && pip3 install -U --no-cache-dir wheel setuptools pip \
     && pip3 install --no-cache-dir --user -r requirements.txt \

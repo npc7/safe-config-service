@@ -6,8 +6,10 @@ djangorestframework-camel-case==1.4.2
 django-storages==1.14.2
 django-stubs-ext==4.2.7
 drf-yasg[validation]==1.21.7
-safe-eth-py[django]==5.8.0
+# safe-eth-py[django]==5.8.0
 gunicorn==21.2.0
 Pillow==10.3.0
 psycopg2-binary==2.9.9
 requests==2.31.0
+safe-eth-py[django] @ git+https://github.com/npc7/safe-eth-py.git@29f9c8851b951f0e328f72331264821ae8a363c7
+
